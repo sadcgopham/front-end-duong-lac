@@ -1,0 +1,76 @@
+.contener-main{
+    color: white;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px auto;
+    margin: 0px auto;
+}
+
+.vv{
+    background:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa-7XcvjfCCvwUfkfLJTMI0e2xoC5yjCFKpA&usqp=CAU) no-repeat center/cover ;
+    text-align: center;
+    margin: 40px 0px;
+     transition: 0.4s;
+    
+}
+.contener{
+   
+    
+    height: 350px;
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    border: none;
+  
+}
+.seafch{
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.3);
+    width: 200px;
+    border: 1px solid ;
+    border-radius: 12px 0px 12px 0px;
+    margin-top: 12px;
+    padding: 0 auto;
+    border: none;
+    outline: none;
+    padding:0px 5px;
+    height: 40px;
+}
+
+button{
+    outline: none;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.title{
+    padding-top: 15px;
+    color: white;
+    font-size: 24px;
+}
+.tt{
+    width: 80px;
+    height: 80px;
+    border-radius: 12px;
+    border: 4px solid;
+    border-color: rgba(255, 255, 255, 0.3);
+    margin: 20px 0px; 
+    font-family: fantasy;
+    font-size: 32px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow:4px  4px rgba(0, 0,0,0.7);
+    box-shadow: 4px 4px rgba(0, 0,0,0.5);
+}
+.forder{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}

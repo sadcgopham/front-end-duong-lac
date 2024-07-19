@@ -1,0 +1,122 @@
+.container-bill-admin{
+    width: 100%;
+    height: auto;
+    
+    text-align: center;
+    .aline-container{
+      border-top:  1px solid hsl(0, 0%, 92%);
+      margin-top: 30px;
+        width: 100%;
+        .colum-bill{
+         width: 100%;
+         height: auto;
+         display: flex;
+         flex-direction: column;
+         
+         .show-bill{
+            width: 100%;
+            height: auto;
+            display: flex;
+            justify-content: flex-start;
+            border-bottom:  1px solid hsl(0, 0%, 92%);
+            .name{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+              width: 10%;
+            }
+            .oder{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 10%;
+                .btn_oder{
+                  width: 80px;
+                  height: 30px;
+                  border-radius: 5px;
+                  background-color: rgb(247, 68, 28);
+                }
+              }
+              .email{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 10%;
+              }
+            .phone{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 10%;
+            }
+            .address{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 15%;
+            }
+            .items{
+                display: flex;
+                flex-direction: column;
+                width: 40%;
+                height: auto;
+                span{
+                  color: black;
+                }
+                .item{
+                  width: 100%;
+                  display: flex;
+                  justify-content:space-between;
+                  align-items: center;
+                  height: auto;
+                   border-bottom:  1px solid hsl(0, 0%, 92%);
+                  .image_quatily{
+                    display: flex;
+                    height: 55px;
+                    width: 20%;
+                    border-left:  1px solid hsl(0, 0%, 92%);
+                    border-right:  1px solid hsl(0, 0%, 92%);
+                    .image{
+                      width: 70%;
+                      height: auto;
+                      display: flex;
+                      justify-content: center;
+                      img{
+                        width: 80%;
+                      } 
+                    } 
+                    .quatily{
+                      width: 30%;
+                     
+                      display: flex;
+                      justify-content: center;
+                      align-items: center;
+                    }
+                  }
+                  .name{
+                    width: 60%;
+                    height: 55px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border-right:  1px solid hsl(0, 0%, 92%);
+                    span{
+                      width: 90%;
+                      font-size: 14px;
+                    }
+                  }
+                  .price{ 
+                    width: 20%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    height: 55px;
+                    border-right:  1px solid hsl(0, 0%, 92%);
+                  }
+                }
+              }
+         }
+         
+        }
+    }
+}

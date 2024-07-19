@@ -1,0 +1,17 @@
+.todo{
+    width: 300px;
+    height: 400px;
+    box-sizing: border-box;
+    margin: 0px auto;
+    padding: 0px;
+    background-color: rgb(247, 234, 218);
+    text-align: center;
+   
+}
+.todos{
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+   
+    
+} 

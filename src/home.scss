@@ -1,0 +1,42 @@
+.table-container {
+    overflow-x: auto;
+    text-align: center;
+    table {
+     width: 70%;
+     border-collapse: collapse;
+     margin: auto;
+     caption-side: top;
+     empty-cells: hide;
+     table-layout: auto;
+     caption{
+      margin-top: 20px;
+      margin-bottom: 20px;
+     }
+      th,    
+      td {
+       padding: 5px;
+       text-align: left;
+       .edit{
+            height: 24px;
+            width: 30px;
+            background-color: rgb(159, 157, 157);
+            margin-left: 10px;
+            border-radius: 5px;
+            
+         }
+        .delete{
+            border-radius: 5px;
+            margin-left: 10px;
+            height: 24px;
+            width: 30px;
+            background-color: #ffffff;   
+         }
+      }
+      tr:nth-child(even) {
+       background-color: #f2f2f2;
+      } 
+      
+    }
+  }
+  
+ 

@@ -1,0 +1,120 @@
+.component-login{
+  display: flex;
+  justify-content: flex-start;
+    
+     h2{
+      margin-top: 30px;
+      margin-bottom: 30px;
+     }
+.container-login {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+       margin:0px auto ;
+       margin-top:80px ;
+    
+      left: 20px;
+      
+     border-radius: 5px;
+     .image-login{
+      background-color:  rgb(255,255,255);
+      width: 350px;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-top: 1px solid #ccc;
+      border-left: 1px solid #ccc;
+      border-bottom: 1px solid #ccc;
+      img{
+        width: 60%;
+      }
+     }
+     .form-login{ 
+      background-color:  rgb(255,255,255);
+      width: 350px;
+      height: 400px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+        border: 1px solid #ccc;
+        form{
+          width: 100%;
+          height: auto;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          .submit{ 
+                 display: flex;
+                 justify-content: space-between;
+                 width: 55%;
+                 height: auto;
+                 align-items: center;
+                 .login-user {
+                  background: #338dbc; /* Facebook blue */
+                    color: #fff;
+                    border: none;
+                  
+                    cursor: pointer;
+                    text-align: center;
+                    width: 100px;
+                    height: 24px;
+                  }
+                .forget-pass{
+                  color: #1a1717;
+                  border: none;
+                
+                  cursor: pointer;
+                  text-align: center;
+                  width: 100px;
+                  height: 24px;
+                }
+                }
+           .err{
+             display: flex;
+             height: auto;
+             align-items: center;
+              color: #f02849;
+             font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+             font-size: 13px;   
+              margin-top: 8px;
+            text-align: left;
+            }
+  .form-group {
+    width: 100%;
+    
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    label {
+    font-weight: bold;
+  }
+  
+  input {
+    width: 90%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  input:focus {
+    outline: none;
+  }
+  }
+  h2{
+    
+   text-align: center;
+  }
+  
+  
+  
+        }
+     
+     }
+  
+}
+
+}

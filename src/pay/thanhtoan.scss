@@ -1,0 +1,381 @@
+.container-pay{
+    display: flex;
+    .information-pay{
+        border: 1px solid #d9d9d9;
+        width: 56%;
+        height: auto;
+        display: flex;
+        background-color:  rgb(255,255,255);
+        justify-content: center;
+        .content-pay{
+            display: flex;
+            flex-direction: column;
+            width: 70%;
+            height: auto;
+            margin-top: 30px;
+            input:focus {
+                outline: none;
+              }
+            .pay-title{
+            width: 100%;
+            display: flex;
+            padding-top: 10px;
+            justify-content: flex-start;
+           
+          h1{
+            font-weight: normal;
+             span{
+                font-weight: 18px;
+            }
+          }
+          
+        }
+        .form-pay{
+            padding-top: 15px;
+            width: 100%;
+            display: flex;
+            height: auto;
+            justify-content: flex-start;
+            flex-direction: column;
+            .err{
+                display: flex;
+                opacity: 1;
+                color: #f02849;
+                font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+                font-size: 13px;
+                
+                margin-top: px;
+                text-align: left;
+            }
+            .User{
+                width: 100%;
+                display: flex;
+                height: auto;
+                justify-content: flex-start;
+                span{
+                   a{
+                    color: #22678c;
+                   } 
+                }
+            }
+            .User span a:hover{
+                color: #338dbc;
+            }
+            h2{
+                padding-top: 15px;
+             font-weight: normal;
+            }
+            form{
+                width: 100%;
+                height: auto;
+                display: flex;
+                flex-direction: column;
+                .email-number{
+                    padding-top: 10px;
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    .email{
+                        width: 60%;
+                        height: 30px;
+                        padding-left: 5px;
+                        border-radius: 5px;
+                        border: 1px solid #ccc;   
+                    }
+                    .sdt{
+                        width: 38%;
+                    height: 30px;
+                    padding-left: 5px;
+                    border-radius: 5px;
+                    border: 1px solid #ccc;
+                    }
+                }
+                .Thôngtin {
+                    padding-top: 10px;
+                    input{
+                       width: 100%;
+                    height: 30px;
+                    padding-left: 5px;
+                    border-radius: 5px;
+                    border: 1px solid #ccc; 
+                    }
+                    
+                  } 
+            }
+        }
+        
+        .methot-pay{
+            display: flex;
+            width: 100%;
+            flex-direction: column;
+            height: auto;
+            .selection-header{
+                padding-top: 15px;
+                padding-bottom: 15px;
+                .selection-title{
+                    font-size: 1.28571em;
+                    font-weight: normal;
+                }
+            }
+            .content-box{
+                width: 100%;
+                height: auto;
+                display: flex;
+                align-items: center;
+                justify-content: center; 
+                border-radius: 4px;
+                border: 1px solid #d9d9d9;
+                .content-box-row{
+                    width: 100%;
+                    height: 70px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-start;
+                    .radio-lable{
+                     width: 80%;
+                     display: flex;
+                     align-items: center;
+                     justify-content: flex-start;
+                     height: auto;
+                        .radio-input{
+                            width: 10%;
+                            height: auto;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            .input-radio{
+                               width: 16px;
+                               height: 16px;
+                            }
+                        }
+                    }
+                    .content-input{
+                        width: 80%;
+                        height: auto;
+                        display: flex;
+                        align-items: center;
+                        justify-content: flex-start;
+                        .image{
+                          width: 35px;
+                          height: 35px;
+                          border: 1px solid #d9d9d9;
+                          border-radius: 5px;
+                          display: flex;
+                          align-items: center;
+                          justify-content: center;
+                          .main-img{
+                           width: 70%;
+                           height: auto;
+                          }
+                        }
+                        .title-methot-pay{
+                            display: flex;
+                            align-items: center;
+                            select{
+                                border: none;
+                                padding-left: 10px;
+                                font-size: 14px;
+                                color: #949191;
+                                
+                            }
+                            select:focus {
+                                outline: none;
+                              }
+                        }
+                    }
+                }
+            }
+        
+        }
+         .footer-pay{
+           margin-top: 10px;
+           display: flex;
+           width: 100%;
+           height: 80px;
+           align-items: center;
+           justify-content: space-between;
+           .cart-return{
+             width: 30%;
+             height: auto;
+             text-align: center;
+             button{
+                width: 80px;
+                height: 40px;
+                text-align: center;
+                color:#31779d;
+                border-radius: 5px;
+                cursor: pointer;
+             }
+             }
+            .oder-item{
+            width: 30%;
+            height: auto;
+            text-align: center;
+            button{
+                width: 80px;
+                height: 40px;
+                text-align: center;
+                background: #31779d;
+                color: #fdf5f5;
+                border-radius: 5px;
+                cursor: pointer;
+             }
+            }  
+           .oder-item button:hover{
+                background: #338dbc;
+            }
+            .cart-return button:hover{
+                color: #338dbc;
+            }
+           }    
+           .business{
+            padding-top: 15px;
+            width: 100%;         
+            height: 100px;
+            .business-footer{
+                display:flex;
+                width: 100%;
+                justify-content: center;
+                border-top: 1px solid #d9d9d9;
+                span{
+                    padding-top: 20px;
+                    font-size: 10px;
+                    color: #4B5563;
+                }
+            }
+           } 
+        }    
+     
+    }
+    .information-items{
+        width: 44%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        .map-items{
+            margin-top: 40px;
+            width: 100%;
+            height: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .items{
+                width: 90%;
+                display: flex;
+                justify-content: center;
+                .list-item{
+                    width: 100%;
+                    height: auto;
+                    .item{
+                        margin-top: 10px;
+                        display: flex;
+                        justify-content: space-between;
+                        width: 100%;
+                        height: 60px;
+                        .img-name{
+                            width: 50%;
+                            height: 100%;
+                            display: flex;
+                            align-items: center;
+                            justify-content: flex-start;
+                           .image{
+                            border-radius: 5px;
+                            border: 1px solid #d9d9d9;
+                            width: 25%;
+                            height: 100%;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            img{
+                                width: 80%;
+                                height: auto;
+                            }
+                           }
+                           .item-name{
+                             width: 75%;
+                             height: 100%;
+                             display: flex;
+                            align-items: center;
+                            justify-content: flex-start;
+                             span{
+                                padding-left: 8px;
+                                font-size: 12px;
+                             }
+                           }
+                        }
+                        
+                        .price-late{
+                            width: 45%;
+                            height: 100%;
+                            display: flex;
+                            align-items: center;
+                            justify-content: flex-end;
+                            span{
+                                font-size: 14px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .price-all-item{
+            
+            margin-top: 15px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 80px;
+            width: 100%;
+            .price-title{
+                border-top: 1px solid #d9d9d9;
+                border-bottom: 1px solid #d9d9d9;
+                width: 90%;
+                height: 60px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                span{
+                    
+                        
+                        font-size: 14px;
+                        color: #949191;
+                
+                    text-align: center;
+                }
+            }
+        }
+        .sum{           
+            display: flex;
+            flex-direction: column;
+            height: auto;
+            width: 100%;
+            .sumsum{
+                width: 100%;
+              
+                display: flex;
+                justify-content: center;
+                div{
+                    width: 90%;
+                    display: flex;
+                    justify-content: space-between;
+                    
+                }
+               
+            }
+            .chuy{
+                margin-top: 10px;
+                width: 90%;
+                display: flex;
+                justify-content: center;
+                span{
+                    width: 89%;
+                    font-size: 14px;
+                    color: #949191;
+                }
+                
+            }
+        }
+    }
+}
